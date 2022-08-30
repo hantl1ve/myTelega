@@ -1,0 +1,96 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sidebar.css">
+  <link rel="stylesheet" href="content.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <title>Telegram</title>
+</head>
+<body>
+  <main>
+    <div class="sidebar">
+      <div class="sidebar_header">
+        <div class="sidebar_header_icon">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="sidebar_header_input_wrapper">
+          <div class="sidebar_header_input_icon">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+          <input type="text" class="sidebar_header_input" placeholder="Search">
+        </div>
+      </div>
+      <div class="sidebar_chatlist">
+        
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content_header">
+        <div class="content_header_info">
+          <img src="./avatar.jpeg" alt="user avatar" class="content_header_info_avatar">
+          <div class="content_header_info_text">
+            <h1>User Name</h1>
+            <span>last seen 10 hours ago</span>
+          </div>
+        </div>
+        <div class="content_header_icons">
+          <div class="content_header_icons_wrapper">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </div>
+          <div class="content_header_icons_wrapper">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+          <div class="content_header_icons_wrapper">
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="content_body">
+        <div class="content_body_chat">
+          <div class="content_body_chat_area">
+            <div class="content_body_chat_area_message_wrapper">
+              <div class="content_body_chat_area_message">
+                <span>Привет, как твои дела?</span>
+                <span class="content_body_chat_area_message_time">17:03</span>
+              </div>
+            </div>
+            <div class="content_body_chat_area_message_wrapper">
+              <div class="content_body_chat_area_message content_body_chat_area_myMessage">
+                <span>Привет. Просто замечательно. Тестирую новый сайт. Сейчас пытаюсь сделать большое сообщение</span>
+                <span class="content_body_chat_area_message_time">17:03</span>
+              </div>
+            </div>
+            <div class="content_body_chat_area_message_wrapper">
+              <div class="content_body_chat_area_message">
+                <span>Ух ты, отправь потом фото, как получилось!</span>
+                <span class="content_body_chat_area_message_time">17:03</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="content_body_chat_input">
+              <div class="content_body_chat_input_icon" id="icon_smilePosition">
+                <i class="fa fa-smile-o" aria-hidden="true"></i>
+              </div>
+              <input type="text" placeholder="Message" class="content_body_chat_input_newtext">
+              <div class="content_body_chat_input_icon" id="icon_filesPosition">
+                <i class="fa fa-files-o" aria-hidden="true"></i>
+              </div>
+              <div class="content_body_chat_input_sendIcons record">
+                <i class="fa fa-microphone" aria-hidden="true"></i>
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="./script.js"></script>
+</html>

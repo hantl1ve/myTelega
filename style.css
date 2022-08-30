@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, -apple-system, apple color emoji, BlinkMacSystemFont, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+
+
